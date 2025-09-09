@@ -1,0 +1,46 @@
+/* tag de comentário */
+/* podemos selecionar uma tag pelo nome, pelo id (identificador único ou pela classe.) */
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/09/Pandora%E2%80%99s_Cluster_%28Abell_2744%29_Uncover_program.png");
+}
+p{
+    color: rgb(255, 161, 94);
+}
+/* sempre que chamamos uma tag pelo id, adicionamos o sinal de "#" no início. */
+#paragrafo{
+    color: rgb(164, 96, 41);
+}
+/* sempre que chamamos uma tag pelo id, adicionamos o sinal de "#" no início. */
+.título{
+    text-decoration: underline;
+    /* altera o tamanho da fonte */
+    font-size: 22px;
+    /* seleciona a família da fonte */
+    font-family: Arial, Helvetica, sans-serif;
+    /* altera o nível de negrito */
+    font-weight: 400;
+}
+
+img{
+    /* altera a altura da imagem */
+    height:50% ;
+    /* altera a largura da imagem */
+    width:50%; 
+}
+ul{
+    
+}
+ul > li{
+    /* altera a cor do fundo */
+    background-color: rgb(255, 225, 134);
+    /* cria um espaçamento interno */
+    padding: 10px;
+    /* altera o arredontamento dos itens */
+    border-radius: 10px;
+    /* cria um espaçamento entre os itens */
+    gap: 10px;
+} > a{
+    /* altera a cor da letra */
+    color: darkorange;
+}
