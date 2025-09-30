@@ -28,9 +28,7 @@ img{
     /* altera a largura da imagem */
     width:50%; 
 }
-ul{
-    
-}
+
 ul > li{
     /* altera a cor do fundo */
     background-color: rgb(255, 225, 134);
@@ -40,7 +38,20 @@ ul > li{
     border-radius: 10px;
     /* cria um espaçamento entre os itens */
     gap: 10px;
-} > a{
+}
+li > a{
     /* altera a cor da letra */
     color: darkorange;
+}
+header{
+    justify-content: space-around;
+}
+header > img{
+    width: 400px;
+    height: 300px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    height: 50px;
 }
